@@ -51,43 +51,49 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Employee.cs">
+    <Compile Include="ManagementAngajati.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Employee.Designer.cs">
-      <DependentUpon>Employee.cs</DependentUpon>
+    <Compile Include="ManagementAngajati.Designer.cs">
+      <DependentUpon>ManagementAngajati.cs</DependentUpon>
     </Compile>
-    <Compile Include="Home.cs">
+    <Compile Include="Acasa.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Home.Designer.cs">
-      <DependentUpon>Home.cs</DependentUpon>
+    <Compile Include="Acasa.Designer.cs">
+      <DependentUpon>Acasa.cs</DependentUpon>
     </Compile>
-    <Compile Include="LoadApp.cs">
+    <Compile Include="IncarcareAplicatie.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="LoadApp.Designer.cs">
-      <DependentUpon>LoadApp.cs</DependentUpon>
+    <Compile Include="IncarcareAplicatie.Designer.cs">
+      <DependentUpon>IncarcareAplicatie.cs</DependentUpon>
     </Compile>
-    <Compile Include="Login.cs">
+    <Compile Include="Autentificare.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Login.Designer.cs">
-      <DependentUpon>Login.cs</DependentUpon>
+    <Compile Include="Autentificare.Designer.cs">
+      <DependentUpon>Autentificare.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Employee.resx">
-      <DependentUpon>Employee.cs</DependentUpon>
+    <Compile Include="CautareAngajat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CautareAngajat.Designer.cs">
+      <DependentUpon>CautareAngajat.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ManagementAngajati.resx">
+      <DependentUpon>ManagementAngajati.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Home.resx">
-      <DependentUpon>Home.cs</DependentUpon>
+    <EmbeddedResource Include="Acasa.resx">
+      <DependentUpon>Acasa.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="LoadApp.resx">
-      <DependentUpon>LoadApp.cs</DependentUpon>
+    <EmbeddedResource Include="IncarcareAplicatie.resx">
+      <DependentUpon>IncarcareAplicatie.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Login.resx">
-      <DependentUpon>Login.cs</DependentUpon>
+    <EmbeddedResource Include="Autentificare.resx">
+      <DependentUpon>Autentificare.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -99,6 +105,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="CautareAngajat.resx">
+      <DependentUpon>CautareAngajat.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
